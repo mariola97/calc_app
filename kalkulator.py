@@ -152,7 +152,7 @@ def res():
     elif operator == "/":  
         a = float((var2.split("/")[1]))  
         if a == 0:  
-            messagebox.showerror("dijeljenje s nulom nije dozovoljeno")  
+            messagebox.showwarning("upozorenje", "dijeljenje s nulom nije dozovoljeno")  
             A == ""  
             var = ""  
             the_data.set(var)  
